@@ -1,0 +1,42 @@
+Verifying sv/ldv-linux-3.4-simple/32_7_cilled_false-unreach-call_const_ok_linux-32_1-drivers--media--video--cpia2--cpia2.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    mutex_unlock
+      sync
+        cpia2_s_fmt_vid_cap
+          main
+          <end>
+      cpia2_read
+        cpia2_v4l_read
+          main
+          <end>
+      cpia2_dqbuf
+        main
+        <end>
+    mutex_trylock
+    <end>
+    mutex_lock
+      sync
+        cpia2_s_fmt_vid_cap
+          main
+          <end>
+      cpia2_read
+        cpia2_v4l_read
+          main
+          <end>
+      cpia2_dqbuf
+        main
+        <end>
+    atomic_dec_and_mutex_lock
+    <end>
+    mutex_lock_killable
+    <end>
+    mutex_lock_interruptible
+    <end>
+    ldv_check_final_state
+      ldv_main1_sequence_infinite_withcheck_stateful
+      <end>
+      main
+      <end>

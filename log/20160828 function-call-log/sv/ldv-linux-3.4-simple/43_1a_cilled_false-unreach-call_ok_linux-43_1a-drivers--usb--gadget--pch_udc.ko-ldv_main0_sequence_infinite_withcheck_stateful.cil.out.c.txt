@@ -1,0 +1,46 @@
+Verifying sv/ldv-linux-3.4-simple/43_1a_cilled_false-unreach-call_ok_linux-43_1a-drivers--usb--gadget--pch_udc.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    ldv_check_alloc_nonatomic
+    <end>
+    ldv_check_alloc_flags_and_return_some_page
+    <end>
+    ldv_check_alloc_flags
+      kzalloc
+        init_dma_pools
+          pch_udc_probe
+            main
+            <end>
+        pch_udc_probe
+          main
+          <end>
+        pch_udc_pcd_queue
+          main
+          <end>
+        pch_udc_alloc_request
+          main
+          <end>
+      ldv_dma_pool_alloc_22
+        init_dma_pools
+          pch_udc_probe
+            main
+            <end>
+      ldv_dma_pool_alloc_21
+        init_dma_pools
+          pch_udc_probe
+            main
+            <end>
+      ldv_dma_pool_alloc_20
+        pch_udc_alloc_request
+          main
+          <end>
+      ldv_dma_pool_alloc_19
+        pch_udc_create_dma_chain
+          prepare_dma
+            pch_udc_pcd_queue
+              main
+              <end>
+      ldv_kmem_cache_alloc_16
+      <end>

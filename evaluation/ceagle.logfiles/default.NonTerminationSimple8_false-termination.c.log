@@ -1,0 +1,8 @@
+./ceagle.sh ../TPDB-54833d03619e/C_Integer/Stroeder_15/NonTerminationSimple8_false-termination.c
+
+
+--------------------------------------------------------------------------------
+
+
+Verifying ../TPDB-54833d03619e/C_Integer/Stroeder_15/NonTerminationSimple8_false-termination.c ...
+Constructing SEG...

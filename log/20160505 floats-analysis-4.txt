@@ -1,0 +1,53 @@
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float-no-simp4_true-unreach-call.i	call
+[not-FIXED]
+__fpclassify not added
+[FIXED]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float-no-simp7_true-unreach-call.i	complex-constant
+Exception: Cannot get expr for value: i32 %argc
+[FIXED]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float-no-simp8_true-unreach-call.i	call
+Exception: Cannot get expr for value: i32 %argc
+[FIXED]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float-zero-sum1_true-unreach-call.i	union
+[WRONG]
+[bitcast]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float13_true-unreach-call.i	NaN
+Exception: (error "line 2 column 46: Sort mismatch at argument #2 for function (declare-fun and (Bool Bool) Bool) supplied sort is (_ BitVec 1)")
+[wait for CG's support for getting type]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float18_true-unreach-call.i	enum
+[Naive could not handle loops]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float22_true-unreach-call.i	union
+[same as float7, fixed segmentation fault]
+[llvm.memcpy]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float3_true-unreach-call.i	sould-not-be
+Exception: Cannot get expr for value: @d = global double 0.000000e+00, align 8
+[constant type, FIXED]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/floats-cbmc-regression/float7_true-unreach-call.i	pointer-conversion
+(lldb) f 4
+frame #4: 0x00000000006abe9b sv-ceagle`ceagle::IRPathTranslator::path2SMTM(this=0x00000000011daa20, g=0x00000000011d6d10, path=const std::vector<const llvm::BasicBlock *, std::allocator<const llvm::BasicBlock*> > at 0x00007fffffffca60) + 23287 at IRPathTranslator.cpp:339
+   36                                  // icmp
+   337                                  case 46: {
+   338                                          const CmpInst* inst = dyn_cast<CmpInst>(bi);
+-> 339                                          switch (inst->getPredicate()) {
+   340                                                  case CmpInst::ICMP_EQ:
+   341                                                          this->updateValueExpr(bi, (this->getValueExpr(bi->getOperand(0)) == this->getValueExpr(bi->getOperand(1))));
+   342                                                          break;
+(lldb) quit
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] Y
+[wrong result, no bitcast support]
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/float-benchs/sin_interpolated_bigrange_loose_true-unreach-call.c	array
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/float-benchs/sin_interpolated_bigrange_tight_true-unreach-call.c	array
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/float-benchs/sin_interpolated_index_true-unreach-call.c	array
+
+file:///home/dexi/Documents/works/beagle/sv-ceagle/examples/sv/float-benchs/sin_interpolated_smallrange_true-unreach-call.c	array

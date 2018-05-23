@@ -1,0 +1,15 @@
+./ceagle.sh ../TPDB-54833d03619e/C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.18_true-termination.c
+
+
+--------------------------------------------------------------------------------
+
+
+Verifying ../TPDB-54833d03619e/C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.18_true-termination.c ...
+Constructing SEG...
+SEG Construction Complete!
+Simplifying SEG...
+SEG Simplification Complete!
+Generating KITTeL file...
+KITTeL file Generation Complete!
+Fatal error: exception Trs_aux.ParseException(107, 676, "Error: Parse error in line 107 at position 676.")
+failed

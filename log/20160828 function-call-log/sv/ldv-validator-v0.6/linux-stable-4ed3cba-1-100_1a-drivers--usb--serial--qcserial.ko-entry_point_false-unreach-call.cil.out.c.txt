@@ -1,0 +1,12 @@
+Verifying sv/ldv-validator-v0.6/linux-stable-4ed3cba-1-100_1a-drivers--usb--serial--qcserial.ko-entry_point_false-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_check_tty
+      ldv_tty_insert_flip_string_fixed_flag_4
+      <end>
+    main
+    <end>
+    ldv__builtin_trap
+    <end>

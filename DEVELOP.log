@@ -1,0 +1,243 @@
+20161212
+
+Updated of how to get result of all benchmarks?
+#!/bin/bash
+
+current=2016-12-14_2127
+
+table-generator results/sv.${current}.results.sv-comp17.ArraysMemSafety.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.ArraysReach.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.BitVectorsOverflows.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.BitVectorsReach.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.BusyBoxMemSafety.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.BusyBoxOverflows.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.Concurrency.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.ControlFlow.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.DeviceDriversLinux64.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.ECA.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.Floats.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.HeapMemSafety.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.HeapReach.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.Loops.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.ProductLines.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.Recursive.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.Sequentialized.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.Termination.xml.bz2
+table-generator results/sv.${current}.results.sv-comp17.xml.bz2
+
+How to get result of all benchmarks?
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ArraysMemSafety.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ArraysReach.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.BitVectorsOverflows.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.BitVectorsReach.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.BusyBox.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Concurrency.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ControlFlow.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.DeviceDriversLinux64.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ECA.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Floats.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.HeapMemSafety.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.HeapReach.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Loops.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ProductLines.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Recursive.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Sequentialized.xml.bz2'
+$ table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Termination-Main.xml.bz2'
+
+
+20161211
+
+Count all files in ldv-* and sort them:
+$ find ldv-*/ -name '*.*' | xargs wc -l | sort -n > ~/Downloads/all.tx:
+
+How to run benchexec at 8 threads
+$ download ceagle.xml from https://raw.githubusercontent.com/sosy-lab/sv-comp/master/benchmark-defs/ceagle.xml
+$ place it in a folder which has a sibling of sv-benchmarks
+# e.g., scrpts/ sv-benchmarks/
+$ cd scripts/
+$ copy the sv.py in sv-ceagle/examples/sv.py to scripts/
+$ modify scripts/ceagle.xml of the following
+	$ <benchmark tool=".sv" timelimit="900 s" memlimit="1 GB" cpuCores="2">
+$ use benchexec "workon sv" mentioned at 20161113
+$ PYTHONPATH=. benchexec -T 900 -N 8 ceagle.xml
+# this will run at a VM with 8GB mem and 16 CPUs (2 physical * 8 cores per physical)
+
+20161210
+
+In order to let benchexec meter CPU & memory usage precisely, you have to type the following before benchmarking:
+$ sudo chmod o+wt '/sys/fs/cgroup/cpu,cpuacct/'
+$ sudo chmod o+wt '/sys/fs/cgroup/freezer/'
+$ sudo chmod o+wt '/sys/fs/cgroup/memory/'
+$ sudo chmod o+wt '/sys/fs/cgroup/cpuset/'
+$ sudo swapoff -a
+
+20161118
+
+Added new benchmarks sv-2017:
+1. files are extracted from SV-COMP 2017
+2. but selected as names from SV-COMP 2016
+3. you can see them as "SV-COMP 2016 benchmarks that still appears in SV-COMP 2017"
+4. located in this project at folder "examples/sv-2017"
+
+20161113
+
+How to setup benchexec env on SKY100:
+$ sudo apt install python-pip
+$ sudo pip install virtualenv virtualenvwrapper
+$ source virtualenvwrapper.sh
+$ mkvirtualenv -p python3 sv
+# now you may already in an env named "sv"
+# and in this env the "pip" is already "pip3" (since -p python3)
+$ pip install benchexec
+$ cd /home/dexi/Documents/works/beagle/sv-ceagle/examples
+$ setvirtualenvproject
+$ deactivate
+
+How to run benchexec on normal Linux:
+$ source virtualenvwrapper.sh
+$ workon sv
+$ deactivate
+
+How to run benchexec on SKY100:
+$ bb
+$ be
+# exit
+$ bee
+# table-generator
+$ table-generator results/sv.2016-11-20_2034.results.dexi.dexi-dd.xml.bz2
+
+Setup a simple website server for examples:
+# in "be", "python" is already "python3"
+$ python -m http.server
+
+How to test sv-ceagle on SKY102:
+1. workon benchexec
+2. cd /home/dexi/sv-benchmarks/c
+
+20161004
+
+How to compile Ceagle in Bash on Ubuntu on Windows:
+1. install gcc-5 & g++-5 (you have to, after me trying so many other ways and failed):
+$ sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+$ sudo apt-get update
+$ sudo apt-get install gcc-5.1 g++-5.1
+
+2. forget the LLVM 3.7.0 compiling method at "20161002", use gcc-5 & g++-5 to build them:
+$ cmake -DLLVM_ENABLE_RTTI=ON -DCMAKE_CXX_COMPILER=g++-5 -DCMAKE_C_COMPILER=gcc-5 ..
+
+3. go to Ceagle and make a build folder then:
+$ mkdir build
+$ cd build
+$ cmake -DLLVM_DIR=/home/dexi/works/ref/llvm-3.7.0.src/build/share/llvm/cmake -DCMAKE_CXX_COMPILER=g++-5 -DCMAKE_C_COMPILER=gcc-5 ..
+$ make
+
+3. they it should work, just keep in mind that gcc & g++ are the best choices on Linux distributions.
+
+4. you should compile LLVM 3.7.0 by gcc-5 & g++-5 in order to compile Ceagle statically; otherwise, say you compiled LLVM 3.7.0 by clang-3.4 then you have to compile Ceagle dynamically (with gcc-5 & g++-5).
+
+20161002
+
+If you are compiling LLVM 3.7.0 on Ubuntu 14.04 and found error messages like below:
+error "Don't have a definition for uint64_t on this platform"
+
+You are supposed to use clang as default CC and CXX:
+1. set clang/clang++ as CC/CXX:
+$ export CC=/usr/bin/clang
+$ export CXX=/usr/bin/clang++
+ref: http://stackoverflow.com/questions/7031126/switching-between-gcc-and-clang-llvm-using-cmake
+
+2. remove old build/ folder, you have to remove it (not try cmake .. again) in order to get rid of the trash files generated previously.
+
+3. create new build/ folder then cmake again, with clang you can now build LLVM 3.7.0 freely, even on Bash on Ubuntu on Windows!
+
+20160821
+Installing benchexec on macOS:
+1.Download benchexec 
+git clone https://github.com/cgcgbcbc/benchexec.git
+
+2.switch branch 
+git checkout darwin-glibc
+
+3.Using homebrew to install python3.(Homebrew：http://brew.sh/)
+brew install python3
+
+4.install benchexec
+cd {darwin-glibc} & pip3 install . 
+
+5.(Optional) If it has any other problems when installing benchexec,please check that using option --upgrade.
+pip3 install . --upgrade
+
+20160423
+In InlinePreprocessor.cpp, L57, there is a "ValueToValueMapTy VMap;", this will cause a link error if RTTI of LLVM is not enabled (https://community.cloudera.com/t5/Interactive-Short-cycle-SQL/How-can-I-fix-an-Impala-1-4-0-compile-error/td-p/16268).
+
+This is mostly the case that you are using your own built LLVM and LLVM is not built with RTTI, you have to do the following to enable RTTI, then rebuild this project:
+
+# in LLVM build directory
+cmake -DLLVM_ENABLE_RTTI=ON ..
+
+References:
+http://llvm.org/docs/CMake.html
+http://llvm.org/docs/Packaging.html
+http://llvm.org/docs/HowToSetUpLLVMStyleRTTI.html# Required packages to build on Ubuntu 
+
+sudo apt-get install llvm
+sudo apt-get install zlib1g-dev
+sudo apt-get install libedit-dev
+
+# Required packages to build on Fedora 
+# 20160301 DW, I found it impossible to use llvm package to compile, since LLVM on fedora always put libraries into /usr/lib64 while likner still tries to find at /usr/lib, so I recommend compiling with LLVM source 
+
+cmake .. -DLLVM_DIR=/home/dexi/Documents/works/llvm/llvm-3.7.0.src/build/share/llvm/cmake
+cmake .. -DCXX_STATIC=ON -DLLVM_DIR=/home/dexi/Documents/works/llvm/llvm-3.7.0.src/build/share/llvm/cmake
+
+# Cmake
+
+cmake .. -DCXX_STATIC=ON -DCMAKE_BUILD_TYPE=Debug -DLLVM_DIR=/path/to/build/share/llvm/cmake
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake .. -DCXX_STATIC=ON -DCMAKE_BUILD_TYPE=Release
+
+# Build
+
+make
+
+libs you may need:
+sudo dnf install glibc-static
+	# solves -lrt, -ldl, -lpthread, -lm, -lc
+sudo dnf install libstdc++-static
+	# solves -stdc++
+sudo dnf install zlib-static
+	# solves -lz
+sudo dnf install ncurses-static
+	# solves -ltinfo
+
+# Release
+
+CXX=clang++3.7 cmake -DLLVM_DIR=... -DCXX_STATIC=ON -DCMAKE_BUILD_TYPE=Release ..
+
+Note: static linking not working on OSX
+
+# Testing
+
+you should install lcov, gcov
+
+cmake -DCMAKE_BUILD_TYPE=Debug -DCOVERAGE=ON ..
+
+For testing, run
+
+make test
+
+For coverage, run
+
+make coverage
+
+and open coverage/index.html
+
+# benchexec
+
+Make a sv.py & a sv.xml in testing folder, then run:
+
+PYTHONPATH=. benchexec -T 90 sv.xml
+
+

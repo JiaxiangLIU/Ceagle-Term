@@ -1,0 +1,11 @@
+Verifying sv/ldv-linux-4.2-rc1/linux-4.2-rc1.tar.xz-08_1a-drivers--gpu--drm--qxl--qxl.ko-entry_point_true-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_module_put
+      ldv_module_put_and_exit
+      <end>
+    ldv_check_final_state
+      main
+      <end>

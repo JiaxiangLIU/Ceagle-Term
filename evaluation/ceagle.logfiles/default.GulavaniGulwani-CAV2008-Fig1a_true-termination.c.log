@@ -1,0 +1,8 @@
+./ceagle.sh ../TPDB-54833d03619e/C_Integer/Stroeder_15/GulavaniGulwani-CAV2008-Fig1a_true-termination.c
+
+
+--------------------------------------------------------------------------------
+
+
+Verifying ../TPDB-54833d03619e/C_Integer/Stroeder_15/GulavaniGulwani-CAV2008-Fig1a_true-termination.c ...
+Constructing SEG...

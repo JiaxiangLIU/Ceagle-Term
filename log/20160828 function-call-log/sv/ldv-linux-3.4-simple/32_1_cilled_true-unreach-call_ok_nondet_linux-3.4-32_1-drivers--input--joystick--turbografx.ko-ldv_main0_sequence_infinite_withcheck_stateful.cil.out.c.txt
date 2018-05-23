@@ -1,0 +1,45 @@
+Verifying sv/ldv-linux-3.4-simple/32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--input--joystick--turbografx.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    mutex_unlock
+      tgfx_close
+        tgfx_probe
+          tgfx_init
+            main
+            <end>
+            init_module
+            <end>
+      tgfx_open
+        tgfx_probe
+          tgfx_init
+            main
+            <end>
+            init_module
+            <end>
+    mutex_trylock
+    <end>
+    mutex_lock
+      tgfx_close
+        tgfx_probe
+          tgfx_init
+            main
+            <end>
+            init_module
+            <end>
+    atomic_dec_and_mutex_lock
+    <end>
+    mutex_lock_killable
+    <end>
+    mutex_lock_interruptible
+      tgfx_open
+        tgfx_probe
+          tgfx_init
+            main
+            <end>
+            init_module
+            <end>
+    ldv_check_final_state
+      main
+      <end>

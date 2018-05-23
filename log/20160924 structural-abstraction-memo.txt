@@ -1,0 +1,2 @@
+1.MSG转SMT表达式的时候，计算+、-、*、／等操作符的表达式的时候，如果类型为FloatSort、BvSort的话，
+并且MSG的节点数比较少时，用FloatSort类型的运算函数。

@@ -1,0 +1,25 @@
+Verifying sv/ldv-linux-4.2-rc1/linux-4.2-rc1.tar.xz-43_2a-drivers--scsi--device_handler--scsi_dh_rdac.ko-entry_point_true-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_check_alloc_nonatomic
+    <end>
+    ldv_check_alloc_flags_and_return_some_page
+    <end>
+    ldv_check_alloc_flags
+      kmalloc
+        get_controller
+          initialize_controller
+            rdac_bus_attach
+              main
+              <end>
+        queue_mode_select
+          rdac_activate
+            main
+            <end>
+        rdac_bus_attach
+          main
+          <end>
+      ldv_kmem_cache_alloc_25
+      <end>

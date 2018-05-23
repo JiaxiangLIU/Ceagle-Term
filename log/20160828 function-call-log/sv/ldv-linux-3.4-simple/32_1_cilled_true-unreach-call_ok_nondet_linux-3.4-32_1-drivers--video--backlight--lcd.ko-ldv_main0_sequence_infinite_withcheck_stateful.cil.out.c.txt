@@ -1,0 +1,34 @@
+Verifying sv/ldv-linux-3.4-simple/32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--video--backlight--lcd.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    mutex_trylock
+    <end>
+    atomic_dec_and_mutex_lock
+    <end>
+    mutex_lock_killable
+    <end>
+    mutex_lock_interruptible
+    <end>
+    ldv_check_final_state
+      main
+      <end>
+    mutex_unlock
+      lcd_store_contrast
+      lcd_show_contrast
+      lcd_store_power
+      lcd_show_power
+      fb_notifier_callback
+        lcd_register_fb
+          lcd_device_register
+      lcd_device_unregister
+    mutex_lock
+      lcd_store_contrast
+      lcd_show_contrast
+      lcd_store_power
+      lcd_show_power
+      fb_notifier_callback
+        lcd_register_fb
+          lcd_device_register
+      lcd_device_unregister

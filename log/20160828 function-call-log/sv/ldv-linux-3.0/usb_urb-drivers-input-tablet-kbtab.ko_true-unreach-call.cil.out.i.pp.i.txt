@@ -1,0 +1,25 @@
+Verifying sv/ldv-linux-3.0/usb_urb-drivers-input-tablet-kbtab.ko_true-unreach-call.cil.out.i.pp.i
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    usb_free_urb
+      kbtab_disconnect
+        main
+        <end>
+      kbtab_probe
+        main
+        <end>
+    usb_free_coherent
+      kbtab_disconnect
+        main
+        <end>
+      kbtab_probe
+        main
+        <end>
+    ldv_check_final_state
+      main
+      <end>
+    ldv_check_final_state
+      main
+      <end>

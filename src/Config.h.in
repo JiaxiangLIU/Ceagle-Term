@@ -1,0 +1,9 @@
+//
+// Created by Dexi Wang
+// sv-team, Tsinghua University
+// 20160325
+//
+
+#define SV_BINARY_NAME "@CONFIG_BINARY_NAME@"
+#define SV_VERSION "@CONFIG_VERSION@"
+#define GIT_VERSION "@ceagle_BUILD_VERSION@"

@@ -1,0 +1,33 @@
+Verifying sv/ldv-linux-4.2-rc1/linux-4.2-rc1.tar.xz-08_1a-drivers--isdn--gigaset--gigaset.ko-entry_point_true-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_module_put
+      ldv_module_put_and_exit
+      <end>
+      ldv_module_put_19
+        if_close
+          ldv_main_exported_5
+            main
+            <end>
+      ldv_module_put_18
+        if_open
+          ldv_main_exported_5
+            main
+            <end>
+      ldv_module_put_9
+        gigaset_free_channel
+          do_connect_req
+          bchannel_down
+            do_action
+              process_event
+                process_events
+                  gigaset_handle_event
+                    gigaset_initcs
+      ldv_module_put_8
+        gigaset_get_free_channel
+          do_connect_req
+    ldv_check_final_state
+      main
+      <end>

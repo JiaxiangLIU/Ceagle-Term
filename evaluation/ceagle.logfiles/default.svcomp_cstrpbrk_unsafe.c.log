@@ -1,0 +1,12 @@
+./ceagle.sh ../TPDB-54833d03619e/C/AProVE_memory_unsafe/svcomp_cstrpbrk_unsafe.c
+
+
+--------------------------------------------------------------------------------
+
+
+Verifying ../TPDB-54833d03619e/C/AProVE_memory_unsafe/svcomp_cstrpbrk_unsafe.c ...
+Constructing SEG...
+load instruction access to un-allocated address
+instruction:   %5 = load i8, i8* %4, align 1
+Fatal error: exception Sys_error("../TPDB-54833d03619e/C/AProVE_memory_unsafe/svcomp_cstrpbrk_unsafe.c.ll.kittel: No such file or directory")
+failed

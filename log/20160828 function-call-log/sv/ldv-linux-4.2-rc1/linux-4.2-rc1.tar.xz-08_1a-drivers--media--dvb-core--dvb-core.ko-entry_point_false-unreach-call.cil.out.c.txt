@@ -1,0 +1,43 @@
+Verifying sv/ldv-linux-4.2-rc1/linux-4.2-rc1.tar.xz-08_1a-drivers--media--dvb-core--dvb-core.ko-entry_point_false-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_module_put
+      ldv_module_put_and_exit
+      <end>
+      ldv_module_put_121
+        dvb_net_do_ioctl
+          dvb_net_ioctl
+            ldv_main_exported_4
+              main
+              <end>
+      ldv_module_put_119
+        dvb_net_do_ioctl
+          dvb_net_ioctl
+            ldv_main_exported_4
+              main
+              <end>
+      ldv_module_put_118
+        dvb_net_do_ioctl
+          dvb_net_ioctl
+            ldv_main_exported_4
+              main
+              <end>
+      ldv_module_put_82
+        dvb_ca_en50221_io_release
+          ldv_main_exported_8
+            main
+            <end>
+      ldv_module_put_81
+        dvb_ca_en50221_io_open
+          ldv_main_exported_8
+            main
+            <end>
+      ldv_module_put_11
+        dvb_device_open
+          main
+          <end>
+    ldv_check_final_state
+      main
+      <end>

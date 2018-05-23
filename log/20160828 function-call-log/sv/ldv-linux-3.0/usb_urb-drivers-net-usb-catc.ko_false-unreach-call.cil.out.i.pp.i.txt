@@ -1,0 +1,42 @@
+Verifying sv/ldv-linux-3.0/usb_urb-drivers-net-usb-catc.ko_false-unreach-call.cil.out.i.pp.i
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    usb_free_urb
+      catc_disconnect
+        main
+        <end>
+      catc_disconnect
+        main
+        <end>
+      catc_disconnect
+        main
+        <end>
+      catc_disconnect
+        main
+        <end>
+      catc_probe
+        main
+        <end>
+      catc_probe
+        main
+        <end>
+      catc_probe
+        main
+        <end>
+      catc_probe
+        main
+        <end>
+      catc_probe
+        main
+        <end>
+      catc_probe
+        main
+        <end>
+      catc_probe
+      catc_probe
+    usb_free_coherent
+    <end>
+    ldv_check_final_state
+    ldv_check_final_state

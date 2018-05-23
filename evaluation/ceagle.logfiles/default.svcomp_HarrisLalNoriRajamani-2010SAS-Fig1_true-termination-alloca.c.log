@@ -1,0 +1,14 @@
+./ceagle.sh ../TPDB-54833d03619e/C/AProVE_memory_alloca/svcomp_HarrisLalNoriRajamani-2010SAS-Fig1_true-termination-alloca.c
+
+
+--------------------------------------------------------------------------------
+
+
+Verifying ../TPDB-54833d03619e/C/AProVE_memory_alloca/svcomp_HarrisLalNoriRajamani-2010SAS-Fig1_true-termination-alloca.c ...
+Constructing SEG...
+SEG Construction Complete!
+Simplifying SEG...
+SEG Simplification Complete!
+Generating KITTeL file...
+KITTeL file Generation Complete!
+shown

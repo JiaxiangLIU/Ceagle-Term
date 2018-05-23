@@ -1,0 +1,9 @@
+Need to support:
+- additional arguments of instruction _alloca_: e.g., allocate memory space of t * size(i32)
+- instruction _getelementptr_
+- instruction _trunc_
+
+Known unsupported things in TPDB benchmark:
+- instruction _srem_: I think it cannot be supported because of the backend KITTeL
+- instruction _sdiv_: I think it cannot be supported because of the backend KITTeL, unless referring to the method used by llvm2kittel
+- instruction _unreachable_ 

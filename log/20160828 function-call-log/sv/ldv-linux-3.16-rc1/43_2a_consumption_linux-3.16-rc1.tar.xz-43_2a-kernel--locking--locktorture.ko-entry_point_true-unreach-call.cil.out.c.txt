@@ -1,0 +1,36 @@
+Verifying sv/ldv-linux-3.16-rc1/43_2a_consumption_linux-3.16-rc1.tar.xz-43_2a-kernel--locking--locktorture.ko-entry_point_true-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_check_alloc_nonatomic
+    <end>
+    ldv_check_alloc_flags_and_return_some_page
+    <end>
+    ldv_check_alloc_flags
+      kzalloc
+        lock_torture_init
+          main
+          <end>
+      kmalloc
+        lock_torture_stats_print
+          lock_torture_stats
+            lock_torture_init
+              main
+              <end>
+          lock_torture_cleanup
+            lock_torture_init
+              main
+              <end>
+            lock_torture_init
+              main
+              <end>
+            main
+            <end>
+        lock_torture_init
+          main
+          <end>
+      ldv_kmem_cache_alloc_16
+      <end>
+    ldv__builtin_trap
+    <end>

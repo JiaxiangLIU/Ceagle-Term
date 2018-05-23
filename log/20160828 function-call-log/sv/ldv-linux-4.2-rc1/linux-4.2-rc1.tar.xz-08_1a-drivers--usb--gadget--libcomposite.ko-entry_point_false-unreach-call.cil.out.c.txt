@@ -1,0 +1,29 @@
+Verifying sv/ldv-linux-4.2-rc1/linux-4.2-rc1.tar.xz-08_1a-drivers--usb--gadget--libcomposite.ko-entry_point_false-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_check_final_state
+      main
+      <end>
+    ldv_module_put
+      ldv_module_put_and_exit
+      <end>
+      ldv_module_put_22
+        try_get_usb_function_instance
+          usb_get_function_instance
+            function_make
+              main
+              <end>
+          usb_get_function_instance
+            function_make
+              main
+              <end>
+      ldv_module_put_23
+        usb_put_function_instance
+          function_make
+            main
+            <end>
+          function_make
+            main
+            <end>

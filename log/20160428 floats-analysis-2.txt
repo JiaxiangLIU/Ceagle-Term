@@ -1,0 +1,27 @@
+floats-cbmc-regression/float-no-simp8_true-unreach-call.i	call
+SMT:
+(set-option :global-decls true)
+(declare-const v1 (_ BitVec 32))
+(declare-const v2 (_ BitVec 32))
+(assert (and (and true (= (fp.add RNE (fp #b1 #b00000000 #b00100000000000000000000) (fp #b0 #b00000000 #b00100000000000000000000)) (fp #b0 #b00000000 #b00000000000000000000000))) (not (= v1 v2))))
+Reason:
+多了(not (= v1 v2))；这两个变量是从哪里来的？
+
+floats-cbmc-regression/float14_true-unreach-call.i		call
+no support for function yet
+
+floats-cbmc-regression/float19_true-unreach-call.i		call
+no support for function yet
+
+floats-cbmc-regression/float1_true-unreach-call.i		should_not_be
+
+float-benchs/nan_double_false-unreach-call.c		wierd, super easy
+use fp.eq not =
+20160430 1138: fixed
+
+float-benchs/nan_float_false-unreach-call.c		wierd, super easy
+use fp.eq not =
+20160430 1138: fixed
+
+float-benchs/sin_interpolated_index_true-unreach-call.c	no_support
+we have to support array

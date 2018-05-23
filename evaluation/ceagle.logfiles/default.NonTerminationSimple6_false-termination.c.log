@@ -1,0 +1,14 @@
+./ceagle.sh ../TPDB-54833d03619e/C_Integer/Stroeder_15/NonTerminationSimple6_false-termination.c
+
+
+--------------------------------------------------------------------------------
+
+
+Verifying ../TPDB-54833d03619e/C_Integer/Stroeder_15/NonTerminationSimple6_false-termination.c ...
+Constructing SEG...
+SEG Construction Complete!
+Simplifying SEG...
+SEG Simplification Complete!
+Generating KITTeL file...
+KITTeL file Generation Complete!
+shown

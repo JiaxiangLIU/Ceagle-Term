@@ -1,0 +1,38 @@
+Verifying sv/ldv-linux-3.4-simple/32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--acpi--apei--einj.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    mutex_unlock
+      einj_error_inject
+        error_inject_set
+          error_inject_fops_open
+      einj_get_available_error_type
+        available_error_type_show
+          available_error_type_open
+            main
+            <end>
+        error_type_set
+          error_type_fops_open
+    mutex_trylock
+    <end>
+    mutex_lock
+      einj_error_inject
+        error_inject_set
+          error_inject_fops_open
+      einj_get_available_error_type
+        available_error_type_show
+          available_error_type_open
+            main
+            <end>
+        error_type_set
+          error_type_fops_open
+    atomic_dec_and_mutex_lock
+    <end>
+    mutex_lock_killable
+    <end>
+    mutex_lock_interruptible
+    <end>
+    ldv_check_final_state
+      main
+      <end>

@@ -1,0 +1,21 @@
+#!/bin/bash
+
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ArraysMemSafety.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ArraysReach.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.BitVectorsOverflows.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.BitVectorsReach.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.BusyBox.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Concurrency.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ControlFlow.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.DeviceDriversLinux64.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ECA.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Floats.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.HeapMemSafety.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.HeapReach.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Loops.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.ProductLines.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Recursive.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Sequentialized.xml.bz2'
+table-generator 'results/ceagle.2016-12-11_1228.results.sv-comp17.Termination-Main.xml.bz2'
+

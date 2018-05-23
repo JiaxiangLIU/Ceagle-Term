@@ -1,0 +1,15 @@
+./ceagle.sh ../TPDB-54833d03619e/C_Integer/Stroeder_15/PodelskiRybalchenko-VMCAI2004-Ex2_true-termination.c
+
+
+--------------------------------------------------------------------------------
+
+
+Verifying ../TPDB-54833d03619e/C_Integer/Stroeder_15/PodelskiRybalchenko-VMCAI2004-Ex2_true-termination.c ...
+Constructing SEG...
+SEG Construction Complete!
+Simplifying SEG...
+SEG Simplification Complete!
+Generating KITTeL file...
+KITTeL file Generation Complete!
+Fatal error: exception Trs_aux.ParseException(23, 471, "Error: Parse error in line 23 at position 471.")
+failed

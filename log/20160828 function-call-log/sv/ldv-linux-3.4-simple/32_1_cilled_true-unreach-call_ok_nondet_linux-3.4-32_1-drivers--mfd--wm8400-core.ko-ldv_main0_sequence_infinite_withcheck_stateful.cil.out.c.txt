@@ -1,0 +1,26 @@
+Verifying sv/ldv-linux-3.4-simple/32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--mfd--wm8400-core.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    mutex_trylock
+    <end>
+    atomic_dec_and_mutex_lock
+    <end>
+    mutex_lock_killable
+    <end>
+    mutex_lock_interruptible
+    <end>
+    ldv_check_final_state
+      main
+      <end>
+    mutex_unlock
+      wm8400_reset_codec_reg_cache
+      wm8400_set_bits
+      wm8400_block_read
+      wm8400_reg_read
+    mutex_lock
+      wm8400_reset_codec_reg_cache
+      wm8400_set_bits
+      wm8400_block_read
+      wm8400_reg_read

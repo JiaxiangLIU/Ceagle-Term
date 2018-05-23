@@ -1,0 +1,42 @@
+Verifying sv/ldv-linux-3.4-simple/32_1_cilled_true-unreach-call_ok_nondet_linux-3.4-32_1-drivers--gpio--gpio-74x164.ko-ldv_main0_sequence_infinite_withcheck_stateful.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    mutex_unlock
+      gen_74x164_set_value
+        gen_74x164_direction_output
+          gen_74x164_probe
+            main
+            <end>
+        gen_74x164_probe
+          main
+          <end>
+      gen_74x164_get_value
+        gen_74x164_probe
+          main
+          <end>
+    mutex_trylock
+    <end>
+    mutex_lock
+      gen_74x164_set_value
+        gen_74x164_direction_output
+          gen_74x164_probe
+            main
+            <end>
+        gen_74x164_probe
+          main
+          <end>
+      gen_74x164_get_value
+        gen_74x164_probe
+          main
+          <end>
+    atomic_dec_and_mutex_lock
+    <end>
+    mutex_lock_killable
+    <end>
+    mutex_lock_interruptible
+    <end>
+    ldv_check_final_state
+      main
+      <end>

@@ -1,0 +1,18 @@
+Verifying sv/ldv-linux-3.0/usb_urb-drivers-uwb-i1480-dfu-i1480-dfu-usb.ko_true-unreach-call.cil.out.i.pp.i
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_blast_assert
+    ldv_check_final_state
+      main
+      <end>
+    ldv_check_final_state
+      main
+      <end>
+    usb_free_urb
+      i1480_usb_destroy
+        i1480_usb_probe
+          main
+          <end>
+    usb_free_coherent
+    <end>

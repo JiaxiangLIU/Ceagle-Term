@@ -1,0 +1,411 @@
+tool	ceagle 	ceagle 	ceagle 	ceagle 
+run set	default	default	default	default
+../tpdb-54833d03619e/	status	cputime (s)	walltime (s)	memUsage
+C/AProVE_memory_alloca/svcomp_Avery-2006FLOPS-Tabel1_true-termination-alloca.c	true	6.294270192	6.287073703482747	14131200
+C/AProVE_memory_alloca/svcomp_Ben-Amram-2010LMCS-Ex2.3_true-termination-alloca.c	ERROR (3)	0.122233336	0.12218634691089392	8470528
+C/AProVE_memory_alloca/svcomp_BradleyMannaSipma-2005CAV-Fig1-modified_false-termination.c	ERROR (3)	0.084143672	0.08465987257659435	8335360
+C/AProVE_memory_alloca/svcomp_BradleyMannaSipma-2005CAV-Fig1_true-termination-alloca.c	ERROR (3)	0.114003243	0.11393577698618174	8474624
+C/AProVE_memory_alloca/svcomp_BradleyMannaSipma-2005ICALP-Fig1_true-termination-alloca.c	true	29.895822992	29.797312724404037	21250048
+C/AProVE_memory_alloca/svcomp_BrockschmidtCookFuhs-2013CAV-Fig1_true-termination-alloca.c	ERROR (3)	0.091982895	0.09196370467543602	8474624
+C/AProVE_memory_alloca/svcomp_BrockschmidtCookFuhs-2013CAV-Introduction_true-termination-alloca.c	ERROR (3)	0.095180884	0.09521326888352633	8609792
+C/AProVE_memory_alloca/svcomp_ChenFlurMukhopadhyay-2012SAS-Fig1_true-termination-alloca.c	ERROR (3)	0.112849633	0.11281988583505154	8613888
+C/AProVE_memory_alloca/svcomp_CookSeeZuleger-2013TACAS-Fig3_true-termination-alloca.c	ERROR (3)	0.094539121	0.0945361778140068	8597504
+C/AProVE_memory_alloca/svcomp_CookSeeZuleger-2013TACAS-Fig7a_true-termination-alloca.c	ERROR (3)	0.106987083	0.10719776526093483	8749056
+C/AProVE_memory_alloca/svcomp_CookSeeZuleger-2013TACAS-Fig7b_true-termination-alloca.c	ERROR (3)	0.116512672	0.11653610784560442	8597504
+C/AProVE_memory_alloca/svcomp_GulwaniJainKoskinen-2009PLDI-Fig1_true-termination-alloca.c	ERROR (3)	0.110889878	0.11086365301162004	8601600
+C/AProVE_memory_alloca/svcomp_HarrisLalNoriRajamani-2010SAS-Fig1_true-termination-alloca.c	true	1.127273027	1.148409123532474	8859648
+C/AProVE_memory_alloca/svcomp_HarrisLalNoriRajamani-2010SAS-Fig2_false-termination-alloca.c	ERROR (3)	0.097072686	0.09716805908828974	8613888
+C/AProVE_memory_alloca/svcomp_HarrisLalNoriRajamani-2010SAS-Fig3_true-termination-alloca.c	ERROR (3)	0.064893149	0.0651124520227313	8593408
+C/AProVE_memory_alloca/svcomp_KroeningSharyginaTsitovichWintersteiger-2010CAV-Fig1_true-termination-alloca.c	ERROR (3)	0.096454066	0.09657817985862494	8597504
+C/AProVE_memory_alloca/svcomp_LarrazOliverasRodriguez-CarbonellRubio-2013FMCAD-Fig1_true-termination-alloca.c	ERROR (3)	0.117893703	0.11780706606805325	8622080
+C/AProVE_memory_alloca/svcomp_Masse_true-termination-alloca.c	ERROR (3)	0.076162083	0.07625547330826521	8617984
+C/AProVE_memory_alloca/svcomp_NoriSharma-2013FSE-Fig7_true-termination-alloca.c	ERROR (3)	0.083547476	0.08389491867274046	8474624
+C/AProVE_memory_alloca/svcomp_NoriSharma-2013FSE-Fig8_true-termination-alloca.c	ERROR (3)	0.121300228	0.12127487454563379	8617984
+C/AProVE_memory_alloca/svcomp_PodelskiRybalchenko-2004VMCAI-Ex2_true-termination-alloca.c	ERROR (3)	0.080544285	0.0806378722190857	8609792
+C/AProVE_memory_alloca/svcomp_TelAviv-Amir-Minimum_true-termination-alloca.c	ERROR (3)	0.102285268	0.10235852748155594	8450048
+C/AProVE_memory_alloca/svcomp_Toulouse-BranchesToLoop_true-termination-alloca.c	ERROR (3)	0.0883563	0.08888623677194118	8749056
+C/AProVE_memory_alloca/svcomp_Toulouse-MultiBranchesToLoop_true-termination-alloca.c	ERROR (3)	0.086241759	0.08633469231426716	8749056
+C/AProVE_memory_alloca/svcomp_Urban-2013WST-Fig1_false-termination-alloca.c	ERROR (3)	0.082575793	0.08278379309922457	8728576
+C/AProVE_memory_alloca/svcomp_Urban-2013WST-Fig2-modified1000_true-termination-alloca.c	ERROR (3)	0.095159267	0.09512489195913076	8744960
+C/AProVE_memory_alloca/svcomp_Urban-2013WST-Fig2_true-termination-alloca.c	ERROR (3)	0.092840858	0.09286039788275957	8749056
+C/AProVE_memory_alloca/svcomp_Urban_true-termination-alloca.c	ERROR (3)	0.093510316	0.09366284124553204	8597504
+C/AProVE_memory_alloca/svcomp_Velroyen_false-termination-alloca.c	ERROR (3)	0.077488554	0.07761942408978939	8613888
+C/AProVE_memory_alloca/svcomp_aviad_true-termination-alloca.c	true	5.540842915	5.505219875834882	11649024
+C/AProVE_memory_alloca/svcomp_cstrchr_true-termination_alloca.c	ERROR (3)	0.902587767	0.8989439206197858	8609792
+C/AProVE_memory_alloca/svcomp_cstrcmp_true-termination_alloca.c	ERROR (3)	3.662031313	3.646246898919344	8495104
+C/AProVE_memory_alloca/svcomp_cstrcspn_true-termination_alloca.c	ERROR (3)	3.745537567	3.748644942417741	8855552
+C/AProVE_memory_alloca/svcomp_cstrlen_true-termination_alloca.c	ERROR (3)	1.018257849	1.0131338881328702	8749056
+C/AProVE_memory_alloca/svcomp_cstrncmp_true-termination_alloca.c	ERROR (3)	3.743907242	3.727828056551516	8622080
+C/AProVE_memory_alloca/svcomp_cstrpbrk_true-termination_alloca.c	ERROR (3)	3.741717332	3.72624034807086	8593408
+C/AProVE_memory_alloca/svcomp_cstrspn_true-termination_alloca.c	ERROR (3)	3.785881459	3.7702013636007905	8597504
+C/AProVE_memory_alloca/svcomp_gcd1_true-termination-alloca.c	true	1.435369468	1.426992766559124	8613888
+C/AProVE_memory_alloca/svcomp_genady_true-termination-alloca.c	ERROR (3)	0.069007437	0.06907156109809875	8728576
+C/AProVE_memory_alloca/svcomp_min_rf_true-termination-alloca.c	ERROR (3)	0.1294571	0.1294360375031829	8728576
+C/AProVE_memory_unsafe/svcomp_add_last_unsafe.c	ERROR (3)	1.109147176	1.1052819704636931	8613888
+C/AProVE_memory_unsafe/svcomp_bubble_sort_unsafe.c	true	4.509465413	4.479799461551011	12623872
+C/AProVE_memory_unsafe/svcomp_bubblesort_unsafe.c	true	4.526173175	4.495828157290816	11190272
+C/AProVE_memory_unsafe/svcomp_count_down_unsafe.c	ERROR (3)	1.046738821	1.0429048109799623	8617984
+C/AProVE_memory_unsafe/svcomp_cstrcat_unsafe.c	true	3.033400841	3.0127922613173723	11251712
+C/AProVE_memory_unsafe/svcomp_cstrchr_unsafe.c	ERROR (3)	0.075614125	0.07572801969945431	8589312
+C/AProVE_memory_unsafe/svcomp_cstrcpy_unsafe.c	true	3.031067875	3.0100708324462175	9826304
+C/AProVE_memory_unsafe/svcomp_cstrlen_unsafe.c	true	0.24309921	0.2420577397570014	8740864
+C/AProVE_memory_unsafe/svcomp_cstrncat_unsafe.c	true	62.05938203	61.646447393111885	26202112
+C/AProVE_memory_unsafe/svcomp_cstrncpy_unsafe.c	true	61.872019105	61.468023316934705	25866240
+C/AProVE_memory_unsafe/svcomp_cstrpbrk_unsafe.c	ERROR (3)	0.081376326	0.08153754472732544	8712192
+C/AProVE_memory_unsafe/svcomp_delete_alloca_unsafe.c	ERROR (3)	1.032130279	1.0282864701002836	8724480
+C/AProVE_memory_unsafe/svcomp_delete_unsafe.c	true	2.984676255	2.963687223382294	9711616
+C/AProVE_memory_unsafe/svcomp_diff_unsafe.c	TIMEOUT	300.80591607	299.8095717402175	1052446720
+C/AProVE_memory_unsafe/svcomp_insertion_sort_unsafe.c	true	4.614522971	4.584636381827295	10973184
+C/AProVE_memory_unsafe/svcomp_insertionsort_unsafe.c	true	4.527811422	4.497155490331352	12210176
+C/AProVE_memory_unsafe/svcomp_java_BubbleSort_unsafe.c	true	4.547311263	4.518185717985034	10928128
+C/AProVE_memory_unsafe/svcomp_knapsack_alloca_unsafe.c	ERROR (3)	4.143954157	4.128020478412509	8605696
+C/AProVE_memory_unsafe/svcomp_knapsack_unsafe.c	TIMEOUT	300.807822728	299.8608986772597	1051615232
+C/AProVE_memory_unsafe/svcomp_lis_unsafe.c	true	4.517439129	4.487348770722747	11735040
+C/AProVE_memory_unsafe/svcomp_mult_array_unsafe.c	ERROR (3)	3.131652525	3.119641055352986	8585216
+C/AProVE_memory_unsafe/svcomp_reverse_array_alloca_unsafe.c	ERROR (3)	1.190196054	1.1856592074036598	8728576
+C/AProVE_memory_unsafe/svcomp_reverse_array_unsafe.c	ERROR (3)	1.044148677	1.0404523145407438	8749056
+C/AProVE_memory_unsafe/svcomp_selection_sort_unsafe.c	true	4.532527939	4.501556223258376	12406784
+C/AProVE_memory_unsafe/svcomp_selectionsort_unsafe.c	true	4.49220004	4.461084785871208	12636160
+C/AProVE_memory_unsafe/svcomp_stroeder1_unsafe.c	true	4.579935449	4.548378827981651	12595200
+C/AProVE_memory_unsafe/svcomp_stroeder2_unsafe.c	true	4.566755864	4.535694798454642	11005952
+C/AProVE_numeric/Avg_true-termination.c	true	6.296960867	6.258752824738622	11915264
+C/AProVE_numeric/Binomial_true-termination.c	TIMEOUT	300.782029441	299.7290774686262	162385920
+C/AProVE_numeric/Et1_true-termination.c	true	7.895699436	7.84506806358695	13430784
+C/AProVE_numeric/Et2_true-termination.c	true	6.320636096	6.278951468877494	12021760
+C/AProVE_numeric/Et3_true-termination.c	true	6.271612064	6.230020833201706	13619200
+C/AProVE_numeric/Et4_true-termination.c	true	7.04942669	7.0019040778279305	12468224
+C/AProVE_numeric/LeUserDefRec_true-termination.c	TIMEOUT	300.760574799	299.80387980584055	82182144
+C/AProVE_numeric/LogRecursive_true-termination.c	TIMEOUT	300.75987919	299.7823633439839	81960960
+C/AProVE_numeric/Parts_true-termination.c	TIMEOUT	300.794700647	299.5880456781015	181309440
+C/AProVE_numeric/TerminatorRec02_true-termination.c	TIMEOUT	300.760338002	299.79965705331415	78622720
+C/AProVE_numeric/TwoWay_true-termination.c	TIMEOUT	300.761842792	299.77786073088646	85508096
+C/AProVE_numeric/svcomp_Ackermann01_true-termination_modified_modified.c	ERROR (3)	70.933783888	70.62962865363806	34172928
+C/AProVE_numeric/svcomp_Addition01_true-termination_modified.c	TIMEOUT	300.776266652	299.4170913733542	102498304
+C/AProVE_numeric/svcomp_EvenOdd01_true-termination_modified.c	ERROR (3)	8.978330016	8.938624356873333	8437760
+C/AProVE_numeric/svcomp_Fibonacci01_true-termination_modified.c	ERROR (3)	10.134007996	10.08930369373411	8867840
+C/AProVE_numeric/svcomp_MultCommutative_true-termination_modified.c	ERROR (3)	124.888387277	124.35200174432248	53776384
+C/AProVE_numeric/svcomp_gcd01_true-termination_modified.c	ERROR (3)	35.104864214	34.953167121857405	19451904
+C/AProVE_numeric/svcomp_recHanoi02_true-termination_modified.c	ERROR (3)	16.400953202	16.329529592767358	11812864
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-Fig1_true-termination.c	ERROR (3)	5.669863232	5.644904911518097	8216576
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-Fig2a_true-termination.c	ERROR (3)	9.168653745	9.129701097495854	8491008
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-Fig2b_true-termination.c	ERROR (3)	10.262025202	10.216520983725786	9273344
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-counterex1a_true-termination.c	ERROR (3)	15.11803968	15.058156812563539	10911744
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-counterex1b_true-termination.c	ERROR (3)	7.564031539	7.532158018089831	8216576
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-cousot9_true-termination.c	TIMEOUT	300.797374105	299.6123060360551	144306176
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-ndecr_true-termination.c	true	101.621493506	101.07349318172783	53194752
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-nestedLoop_true-termination.c	TIMEOUT	300.791416823	299.61531273741275	137322496
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-random1d_true-termination.c	TIMEOUT	300.79674901	299.59887478966266	138633216
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-rsd_true-termination.c	TIMEOUT	300.796079384	299.60499765351415	199901184
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination.c	TIMEOUT	300.845161657	299.39215941075236	159006720
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-speedpldi3_true-termination.c	TIMEOUT	300.799471718	299.5241731759161	180989952
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-speedpldi4_true-termination.c	TIMEOUT	300.801535844	299.5495121674612	160079872
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-terminate_true-termination.c	ERROR (3)	6.871322888	6.841364360414445	8065024
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-wcet2_true-termination.c	ERROR (3)	5.679994086	5.652315487153828	8089600
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-while2_true-termination.c	TIMEOUT	300.48926691	293.70169496070594	226832384
+C/SV-COMP_Termination_Category/AliasDarteFeautrierGonnord-SAS2010-wise_true-termination.c	ERROR (3)	8.476640758	8.439410318620503	8224768
+C/SV-COMP_Termination_Category/Avery-FLOPS2006-Table1_true-termination.c	true	6.270431417	6.231808787211776	12517376
+C/SV-COMP_Termination_Category/BradleyMannaSipma-CAV2005-Fig1-modified_false-termination.c	true	30.181619662	30.033856592141092	22487040
+C/SV-COMP_Termination_Category/BradleyMannaSipma-CAV2005-Fig1_true-termination.c	true	40.882030997	40.67060430254787	27336704
+C/SV-COMP_Termination_Category/BradleyMannaSipma-ICALP2005-Fig1_true-termination.c	TIMEOUT	300.804997956	299.5658986726776	169963520
+C/SV-COMP_Termination_Category/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron12_true-termination.c	TIMEOUT	300.771752661	299.8221750166267	140988416
+C/SV-COMP_Termination_Category/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron1_true-termination.c	ERROR (3)	12.445290381	12.39223799481988	9887744
+C/SV-COMP_Termination_Category/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron4_true-termination.c	ERROR (3)	44.23241684	44.06016782205552	22171648
+C/SV-COMP_Termination_Category/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron6_true-termination.c	ERROR (3)	113.471527902	113.01048240438104	47714304
+C/SV-COMP_Termination_Category/ChawdharyCookGulwaniSagivYang-ESOP2008-random1d_true-termination.c	TIMEOUT	300.80039022	299.5796721316874	137351168
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex1.02_true-termination.c	ERROR (3)	2.034866197	2.025508761405945	8077312
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex1.03_true-termination.c	ERROR (3)	13.044346953	12.986438516527414	10485760
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex1.04_true-termination.c	ERROR (3)	12.961100145	12.90125813614577	10342400
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex1.05_true-termination.c	ERROR (3)	12.605105943	12.546414103358984	10563584
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.01_true-termination.c	true	76.061080111	75.82775663305074	41369600
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.02_false-termination.c	true	76.359466903	76.11391330882907	42618880
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.05_false-termination.c	ERROR (3)	5.606631156	5.582381750456989	8089600
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.07_true-termination.c	ERROR (3)	5.015734819	4.992707330733538	8069120
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.08_true-termination.c	ERROR (3)	19.561428882	19.47350509930402	15183872
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.10_true-termination.c	ERROR (3)	3.652468971	3.63622710108757	8081408
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.13_true-termination.c	true	111.104488311	110.64304031338543	60846080
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.16_true-termination.c	true	54.652666999	54.46734793577343	33132544
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.17_false-termination.c	true	63.017176851	62.80663481913507	36466688
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.20_true-termination.c	ERROR (3)	26.566713439	26.447813572362065	16818176
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex2.22_true-termination.c	ERROR (3)	20.881913915	20.790367184206843	14299136
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex3.01_true-termination.c	TIMEOUT	300.78335347	299.1609484022483	110538752
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex3.03_true-termination.c	TIMEOUT	300.730488405	300.08946954086423	143912960
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex3.04_true-termination.c	ERROR (3)	9.225587236	9.18447647895664	8462336
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex3.05_true-termination.c	ERROR (3)	6.528872062	6.50013420637697	7987200
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex3.08_true-termination.c	TIMEOUT	300.735073613	299.96037550643086	167673856
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex3.09_true-termination.c	ERROR (3)	8.220604592	8.187994165346026	8204288
+C/SV-COMP_Termination_Category/ChenFlurMukhopadhyay-SAS2012-Ex4.01_true-termination.c	ERROR (3)	13.056187138	13.000952535308897	10149888
+C/SV-COMP_Termination_Category/CookSeeZuleger-TACAS2013-Fig1_true-termination.c	ERROR (3)	3.537777678	3.522327745333314	8224768
+C/SV-COMP_Termination_Category/CookSeeZuleger-TACAS2013-Fig7a_true-termination.c	ERROR (3)	10.183098882	10.137712428346276	8941568
+C/SV-COMP_Termination_Category/CookSeeZuleger-TACAS2013-Fig7b_true-termination.c	ERROR (3)	10.589133346	10.544181549921632	8949760
+C/SV-COMP_Termination_Category/GopanReps-CAV2006-Fig1a_true-termination.c.c	TIMEOUT	300.695498839	300.3342986749485	119468032
+C/SV-COMP_Termination_Category/GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c	ERROR (3)	24.818309681	24.707404740154743	15163392
+C/SV-COMP_Termination_Category/HarrisLalNoriRajamani-SAS2010-Fig1_true-termination.c	true	1.131982043	1.126177323050797	8085504
+C/SV-COMP_Termination_Category/HarrisLalNoriRajamani-SAS2010-Fig2_false-termination.c	TIMEOUT	300.80390531	299.52711455896497	162676736
+C/SV-COMP_Termination_Category/HarrisLalNoriRajamani-SAS2010-Fig3_true-termination.c	ERROR (3)	0.056450836	0.30619284976273775	8224768
+C/SV-COMP_Termination_Category/HeizmannHoenickeLeikePodelski-ATVA2013-Fig2_true-termination.c	ERROR (3)	8.168673801	8.133571675978601	8200192
+C/SV-COMP_Termination_Category/HeizmannHoenickeLeikePodelski-ATVA2013-Fig5_true-termination.c	ERROR (3)	4.759534232	4.739779497496784	8089600
+C/SV-COMP_Termination_Category/HeizmannHoenickeLeikePodelski-ATVA2013-Fig6_true-termination.c	ERROR (3)	18.075225558	17.993750763125718	13180928
+C/SV-COMP_Termination_Category/HeizmannHoenickeLeikePodelski-ATVA2013-Fig7_true-termination.c	ERROR (3)	1.967664104	1.9781116181984544	8462336
+C/SV-COMP_Termination_Category/HeizmannHoenickeLeikePodelski-ATVA2013-Fig8_true-termination.c	ERROR (3)	79.308209815	78.87087984848768	60874752
+C/SV-COMP_Termination_Category/HeizmannHoenickeLeikePodelski-ATVA2013-Fig9_true-termination.c	ERROR (3)	15.950316891	15.8817327208817	11341824
+C/SV-COMP_Termination_Category/HenzingerJhalaMajumdarSutre-POPL2002-LockingExample_false-termination.c	ERROR (3)	25.133058652	25.025537312962115	18436096
+C/SV-COMP_Termination_Category/KroeningSharyginaTsitovichWintersteiger-CAV2010-Ex_true-termination.c	TIMEOUT	300.691009229	300.49706889130175	152018944
+C/SV-COMP_Termination_Category/KroeningSharyginaTsitovichWintersteiger-CAV2010-Fig1_true-termination.c	ERROR (3)	1.811569104	1.8042698707431555	8089600
+C/SV-COMP_Termination_Category/LarrazOliverasRodriguez-CarbonellRubio-FMCAD2013-Fig1_true-termination.c	TIMEOUT	300.802583174	299.54646467324346	174796800
+C/SV-COMP_Termination_Category/LeeJonesBen-Amram-POPL2001-Ex1_true-termination.c	true	2.9840907	2.9694440364837646	9195520
+C/SV-COMP_Termination_Category/LeeJonesBen-Amram-POPL2001-Ex2_true-termination.c	true	29.640358414	29.51518313307315	22712320
+C/SV-COMP_Termination_Category/LeeJonesBen-Amram-POPL2001-Ex3_true-termination.c	true	29.672885497	29.550038309767842	20992000
+C/SV-COMP_Termination_Category/LeeJonesBen-Amram-POPL2001-Ex4_true-termination.c	TIMEOUT	300.772636849	299.5722640277818	92745728
+C/SV-COMP_Termination_Category/LeeJonesBen-Amram-POPL2001-Ex5_true-termination.c	true	29.751723494	29.621142628602684	22425600
+C/SV-COMP_Termination_Category/LeeJonesBen-Amram-POPL2001-Ex6_true-termination.c	true	30.203965844	30.074953076429665	21102592
+C/SV-COMP_Termination_Category/LeikeHeizmann-TACAS2014-Ex9_true-termination.c	ERROR (3)	3.582945181	3.5674285953864455	8060928
+C/SV-COMP_Termination_Category/LeikeHeizmann-WST2014-Ex9_true-termination.c	ERROR (3)	0.967929773	0.9632803220301867	8069120
+C/SV-COMP_Termination_Category/Masse-VMCAI2014-Fig1b_true-termination.c	ERROR (3)	58.050608717	57.78729582205415	54194176
+C/SV-COMP_Termination_Category/PodelskiRybalchenko-LICS2004-Fig2_true-termination.c	ERROR (3)	3.809464598	3.7929330468177795	7925760
+C/SV-COMP_Termination_Category/PodelskiRybalchenko-TACAS2011-Fig4_true-termination.c	ERROR (3)	3.670584391	3.6540165822952986	8089600
+C/SV-COMP_Termination_Category/PodelskiRybalchenko-VMCAI2004-Ex1_true-termination.c	TIMEOUT	300.829810614	299.14920418709517	240635904
+C/SV-COMP_Termination_Category/TelAviv-Amir-Minimum_true-termination.c	ERROR (3)	3.553725047	3.537348384037614	8077312
+C/SV-COMP_Termination_Category/Toulouse-BranchesToLoop_true-termination.c	ERROR (3)	6.84573129	6.817320655100048	8085504
+C/SV-COMP_Termination_Category/Toulouse-MultiBranchesToLoop_true-termination.c	ERROR (3)	34.816261422	34.668766137212515	22204416
+C/SV-COMP_Termination_Category/UrbanMine-ESOP2014-Fig3_true-termination.c	ERROR (3)	3.563986628	3.5479648718610406	8081408
+C/SV-COMP_Termination_Category/aaron2_true-termination.c	ERROR (3)	7.261622819	7.230301403440535	8089600
+C/SV-COMP_Termination_Category/aaron3_true-termination.c	ERROR (3)	16.430737807	16.362968274392188	11452416
+C/SV-COMP_Termination_Category/aviad_true-termination.c	true	5.416148796	5.381352515891194	11722752
+C/SV-COMP_Termination_Category/gcd1_true-termination.c	true	1.406470702	1.3985291123390198	8220672
+C/SV-COMP_Termination_Category/genady_true-termination.c	true	104.1926273	103.69853167515248	56315904
+C/SV-COMP_Termination_Category/joey_false-termination.c	true	0.831364881	0.8262351471930742	8224768
+C/SV-COMP_Termination_Category/min_rf_true-termination.c	ERROR (3)	3.598805559	3.5846538757905364	8093696
+C/SV-COMP_Termination_Category/svcomp_cstrcmp_true-termination.c	true	0.23923637	0.2381407804787159	8470528
+C/SV-COMP_Termination_Category/svcomp_cstrcspn_true-termination.c	true	0.289481407	0.28827608469873667	8617984
+C/SV-COMP_Termination_Category/svcomp_cstrlen_true-termination.c	true	0.223035925	0.22215065732598305	8736768
+C/SV-COMP_Termination_Category/svcomp_cstrncmp_true-termination.c	true	0.315408953	0.3139170054346323	8593408
+C/SV-COMP_Termination_Category/svcomp_cstrpbrk_true-termination.c	true	0.329968834	0.32891886960715055	8613888
+C/SV-COMP_Termination_Category/svcomp_cstrspn_true-termination.c	true	0.243618372	0.24254853557795286	8617984
+C/SV-COMP_Termination_Category/svcomp_strchr_true-termination.c	true	0.271415263	0.270443944260478	8749056
+C/Ton_Chanh_15/Ackermann_false-termination.c	true	294.126311756	293.1413564309478	56356864
+C/Ton_Chanh_15/Ackermann_true-termination.c	TIMEOUT	301.011889026	297.2996085109189	102801408
+C/Ton_Chanh_15/Binary_Search_true-termination.c	true	1.301672795	1.293768698349595	8155136
+C/Ton_Chanh_15/McCarthy91_Recursion_true-termination.c	true	0.334910047	0.333325088955462	8073216
+C/Ton_Chanh_15/MutualRecursion_1a_false-termination.c	true	0.376718375	0.37516161520034075	8224768
+C/Ton_Chanh_15/MutualRecursion_1b_true-termination.c	true	0.349509829	0.34775165282189846	8056832
+C/Ton_Chanh_15/NestedRecursion_1a_false-termination.c	true	0.357555461	0.35604378674179316	8069120
+C/Ton_Chanh_15/NestedRecursion_1b_true-termination.c	true	0.420364273	0.4187389723956585	8224768
+C/Ton_Chanh_15/NestedRecursion_1c_true-termination.c	true	0.352627472	0.35077875945717096	8069120
+C/Ton_Chanh_15/NestedRecursion_1d_true-termination.c	true	0.31875127	0.31714673433452845	7929856
+C/Ton_Chanh_15/NestedRecursion_2a_false-termination.c	true	0.376694901	0.37505121156573296	7921664
+C/Ton_Chanh_15/NestedRecursion_2b_false-termination.c	true	4.312039791	4.291140411049128	11067392
+C/Ton_Chanh_15/NestedRecursion_2c_true-termination.c	true	4.340737394	4.31901276204735	9838592
+C/Ultimate/4BitCounterPointer_true-termination.c	ERROR (3)	0.0870423	0.08716791588813066	8482816
+C/Ultimate/Arrays01-EquivalentConstantIndices_true-termination.c	ERROR (3)	0.069900106	0.07003276236355305	8081408
+C/Ultimate/Arrays02-EquivalentConstantIndices_false-termination.c	ERROR (3)	0.066775049	0.06715650018304586	8093696
+C/Ultimate/Arrays03-ValueRestictsIndex_true-termination.c	ERROR (3)	1.787658236	1.7801890121772885	8093696
+C/Ultimate/Bangalore_true-termination.c	true	152.473968367	151.92415217403322	63709184
+C/Ultimate/Cairo_true-termination.c	true	16.260589409	16.181711111217737	23285760
+C/Ultimate/Collatz_unknown-termination.c	ERROR (3)	0.98302316	0.978375437669456	7917568
+C/Ultimate/Division_false-termination.c	ERROR (3)	1.689016219	1.680476917885244	8089600
+C/Ultimate/Gothenburg_true-termination.c	ERROR (3)	16.13441597	16.063184240832925	11313152
+C/Ultimate/LexIndexValue-Array_true-termination.c	ERROR (3)	0.308289808	0.3073421996086836	8724480
+C/Ultimate/LexIndexValue-Pointer_true-termination.c	ERROR (3)	0.086995378	0.08703520894050598	8740864
+C/Ultimate/Lobnya-Boolean-Reordered_true-termination.c	ERROR (3)	3.268241362	3.2534029250964522	8220672
+C/Ultimate/Madrid_false-termination.c	TIMEOUT	300.688155505	300.6987681295723	169627648
+C/Ultimate/Mysore_true-termination.c	true	249.453788297	248.92101859115064	86458368
+C/Ultimate/NonTermination2_false-termination.c	ERROR (3)	13.126168665	13.066924546845257	10543104
+C/Ultimate/NonTermination3_false-termination.c	ERROR (3)	2.08173999	2.0723859118297696	8077312
+C/Ultimate/NonTerminationSimple2_false-termination.c	true	7.212522803	7.172838032245636	14934016
+C/Ultimate/NonTerminationSimple3_false-termination.c	TIMEOUT	300.687351236	300.5372743625194	41807872
+C/Ultimate/NonTerminationSimple4_false-termination.c	true	84.324261771	84.03974455967546	41467904
+C/Ultimate/NonTerminationSimple5_false-termination.c	TIMEOUT	300.688527354	300.50518734473735	144363520
+C/Ultimate/NonTerminationSimple6_false-termination.c	true	6.671208443	6.634626344777644	14684160
+C/Ultimate/NonTerminationSimple7_false-termination.c	TIMEOUT	300.689667128	300.45709362998605	55603200
+C/Ultimate/NonTerminationSimple8_false-termination.c	TIMEOUT	300.788781428	299.7086759088561	355201024
+C/Ultimate/NonTerminationSimple9_false-termination.c	TIMEOUT	300.683456511	300.6681336639449	18186240
+C/Ultimate/Nyala-2lex_true-termination.c	ERROR (3)	13.917676965	13.85676622390747	11489280
+C/Ultimate/Parallel_true-termination.c	TIMEOUT	300.819121525	298.1929249269888	150163456
+C/Ultimate/Pure3Phase_true-termination.c	TIMEOUT	300.809307536	299.5313085373491	190439424
+C/Ultimate/RecursiveMultiplication_true-termination.c	true	81.539197012	81.02421108540148	29544448
+C/Ultimate/RecursiveNonterminating_false-termination.c	true	1.614987765	1.6071879230439663	8077312
+C/Ultimate/Rotation180_false-termination.c	TIMEOUT	300.03415476	296.4570440184325	61513728
+C/Ultimate/Stockholm_true-termination.c	TIMEOUT	300.742325882	299.80845581553876	217370624
+C/Ultimate/SyntaxSupportPointer01_true-termination.c	ERROR (3)	0.077810387	0.07801473420113325	8749056
+C/Ultimate/WhileFalse_true-termination.c	true	0.271984076	0.2708622980862856	8093696
+C/Ultimate/WhileTrue_false-termination.c	ERROR (3)	5.948917318	5.948322540149093	730513408
+C_Integer/Stroeder_15/2Nested_true-termination.c	true	74.171532744	73.95376114919782	40632320
+C_Integer/Stroeder_15/4NestedWith3Variables_true-termination.c	TIMEOUT	300.838530485	299.17777111474425	254550016
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-Fig1_true-termination.c	ERROR (3)	5.680266846	5.654422342777252	8073216
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-Fig2a_true-termination.c	ERROR (3)	8.930730196	8.888598404824734	8511488
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-Fig2b_true-termination.c	ERROR (3)	10.763329853	10.714806670323014	9203712
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-complex_true-termination.c	TIMEOUT	300.798110723	299.57389098219573	188932096
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-counterex1a_true-termination.c	ERROR (3)	15.137574453	15.072995423339307	10932224
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-counterex1b_true-termination.c	ERROR (3)	7.613908062	7.580289560370147	7966720
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-cousot9_true-termination.c	TIMEOUT	300.800336325	299.5606793500483	144162816
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-exmini_true-termination.c	ERROR (3)	9.842189411	9.804493047297	8650752
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-loops_true-termination.c	TIMEOUT	300.806125734	299.53346979711205	163188736
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-ndecr_true-termination.c	true	158.812897551	156.2766520930454	79605760
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-nestedLoop_true-termination.c	TIMEOUT	300.790532341	299.6179569326341	136269824
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-random1d_true-termination.c	TIMEOUT	300.802699468	299.5491381669417	137981952
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-random2d_true-termination.c	TIMEOUT	300.792100647	299.62604977283627	170582016
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-rsd_true-termination.c	TIMEOUT	300.792610544	299.6344540864229	199704576
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-speedFails4_true-termination.c	TIMEOUT	300.816607319	299.6146719492972	1130721280
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-speedpldi2_true-termination.c	TIMEOUT	300.40076604	297.6633286010474	170295296
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-speedpldi3_true-termination.c	TIMEOUT	300.794763906	299.59046546928585	176103424
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-speedpldi4_true-termination.c	TIMEOUT	300.799522196	299.5650861412287	155992064
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-terminate_true-termination.c	ERROR (3)	6.915024067	6.886119314469397	7929856
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-wcet2_true-termination.c	ERROR (3)	5.352143452	5.326765904203057	7942144
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-while2_true-termination.c	TIMEOUT	300.961446398	299.3521677404642	331313152
+C_Integer/Stroeder_15/AliasDarteFeautrierGonnord-SAS2010-wise_true-termination.c	ERROR (3)	8.364443496	8.328366765752435	8110080
+C_Integer/Stroeder_15/Avery-FLOPS2006-Table1_true-termination.c	TIMEOUT	300.160624665	297.47229105979204	404430848
+C_Integer/Stroeder_15/Bangalore_true-termination.c	true	101.723282762	101.30548932775855	60948480
+C_Integer/Stroeder_15/Ben-Amram-LMCS2010-Ex2.3_true-termination.c	ERROR (3)	10.210931535	10.164645364508033	8867840
+C_Integer/Stroeder_15/Benghazi_true-termination.c	TIMEOUT	301.00536978	298.60868763551116	346603520
+C_Integer/Stroeder_15/BradleyMannaSipma-CAV2005-Fig1-modified_false-termination.c	TIMEOUT	300.80388417	299.5387353198603	142585856
+C_Integer/Stroeder_15/BradleyMannaSipma-CAV2005-Fig1_true-termination.c	TIMEOUT	300.808179617	299.4946077587083	144314368
+C_Integer/Stroeder_15/BradleyMannaSipma-ICALP2005-Fig1_true-termination.c	TIMEOUT	300.798796628	299.6093411780894	167260160
+C_Integer/Stroeder_15/BrockschmidtCookFuhs-CAV2013-Fig1_true-termination.c	TIMEOUT	300.803255274	299.5600225497037	134971392
+C_Integer/Stroeder_15/BrockschmidtCookFuhs-CAV2013-Fig9a_true-termination.c	TIMEOUT	300.790358041	299.65512515231967	185577472
+C_Integer/Stroeder_15/BrockschmidtCookFuhs-CAV2013-Introduction_true-termination.c	true	81.297123855	80.92390025127679	51777536
+C_Integer/Stroeder_15/Cairo_true-termination.c	true	13.324593239	13.262210262939334	21139456
+C_Integer/Stroeder_15/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron12_true-termination.c	TIMEOUT	300.769819906	299.8179475944489	141160448
+C_Integer/Stroeder_15/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron1_true-termination.c	ERROR (3)	12.66178474	12.605295934714377	9838592
+C_Integer/Stroeder_15/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron4_true-termination.c	ERROR (3)	44.191996944	44.012299394235015	22163456
+C_Integer/Stroeder_15/ChawdharyCookGulwaniSagivYang-ESOP2008-aaron6_true-termination.c	ERROR (3)	113.573641843	113.10371258016676	47689728
+C_Integer/Stroeder_15/ChawdharyCookGulwaniSagivYang-ESOP2008-random1d_true-termination.c	TIMEOUT	300.804830973	299.5600232956931	136200192
+C_Integer/Stroeder_15/ChawdharyCookGulwaniSagivYang-ESOP2008-random2d_true-termination.c	TIMEOUT	300.796096261	299.60013392195106	169000960
+C_Integer/Stroeder_15/ChenCookFuhsNimkarOHearn-TACAS2014-Introduction_false-termination.c	TIMEOUT	300.691882575	300.414158122614	48394240
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex1.01_true-termination.c	ERROR (3)	6.09016557	6.061765164136887	8216576
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex1.02_true-termination.c	ERROR (3)	6.761438268	6.730828043073416	7794688
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex1.03_true-termination.c	ERROR (3)	3.279772632	3.2649908447638154	8093696
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex1.04_true-termination.c	ERROR (3)	3.535261877	3.5216571586206555	8089600
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex1.05_true-termination.c	ERROR (3)	3.419025848	3.4039300121366978	8077312
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.01_true-termination.c	true	75.633013991	75.40592669975013	44371968
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.02_false-termination.c	true	75.980605652	75.74999738577753	39944192
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.03_false-termination.c	ERROR (3)	17.285909205	17.209192376583815	13893632
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.04_false-termination.c	ERROR (3)	25.321669393	25.20970904827118	17997824
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.06_false-termination.c	ERROR (3)	85.090486028	84.70951963961124	46075904
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.07_true-termination.c	ERROR (3)	5.02393786	5.002605984918773	7929856
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.08_true-termination.c	ERROR (3)	20.10417218	20.01133267674595	15175680
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.09_true-termination.c	ERROR (3)	7.834633772	7.800701360218227	8085504
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.10_true-termination.c	ERROR (3)	3.719544438	3.7037980929017067	7950336
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.11_false-termination.c	ERROR (3)	109.043048308	108.38929881714284	59473920
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.12_false-termination.c	TIMEOUT	300.743656051	300.0002909237519	131891200
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.13_true-termination.c	true	110.64756424	110.33888385817409	56541184
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.14_false-termination.c	ERROR (3)	3.633479904	3.616226451471448	7946240
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.15_false-termination.c	TIMEOUT	300.690232048	300.4263655273244	52264960
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.16_true-termination.c	true	54.328016911	54.144136065617204	34123776
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.17_false-termination.c	true	61.579845674	61.37214379943907	39403520
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.18_true-termination.c	ERROR (3)	19.615388649	19.530963317491114	15118336
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.19_true-termination.c	ERROR (3)	16.567999608	16.492264948785305	13897728
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.20_true-termination.c	ERROR (3)	9.882044722	9.8393474239856	8695808
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.21_true-termination.c	TIMEOUT	300.687202527	300.5420776642859	55189504
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex2.22_true-termination.c	ERROR (3)	5.7514496	5.725395939312875	8073216
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.01_true-termination.c	TIMEOUT	300.856533477	299.5854476150125	119975936
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.02_false-termination.c	TIMEOUT	300.803456448	299.83088695723563	128360448
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.03_true-termination.c	TIMEOUT	300.732983196	300.06417556479573	151961600
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.04_true-termination.c	ERROR (3)	9.206905618	9.167433223687112	8552448
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.05_true-termination.c	ERROR (3)	6.48702766	6.459329997189343	7954432
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.06_false-termination.c	ERROR (3)	73.91889072	72.98731211386621	56246272
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.07_true-termination.c	TIMEOUT	300.744736944	299.8727704193443	129392640
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.08_true-termination.c	TIMEOUT	300.731933787	299.9899352202192	193302528
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.09_true-termination.c	ERROR (3)	18.469455799	18.390465636737645	12443648
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex3.10_true-termination.c	ERROR (3)	7.150034152	7.11935321521014	8216576
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Ex4.01_true-termination.c	ERROR (3)	12.97326341	12.918446362949908	10207232
+C_Integer/Stroeder_15/ChenFlurMukhopadhyay-SAS2012-Fig1_true-termination.c	TIMEOUT	300.851060453	299.27693432662636	148746240
+C_Integer/Stroeder_15/ColonSipma-TACAS2001-Fig1_true-termination.c	ERROR (3)	6.658211701	6.630974031984806	8093696
+C_Integer/Stroeder_15/CookSeeZuleger-TACAS2013-Fig1_true-termination.c	ERROR (3)	3.6642264	3.648804636672139	8224768
+C_Integer/Stroeder_15/CookSeeZuleger-TACAS2013-Fig7a_true-termination.c	ERROR (3)	10.246657891	10.202943784184754	8970240
+C_Integer/Stroeder_15/CookSeeZuleger-TACAS2013-Fig7b_true-termination.c	ERROR (3)	10.294376467	10.249447009526193	8785920
+C_Integer/Stroeder_15/CookSeeZuleger-TACAS2013-Fig8a-modified_true-termination.c	TIMEOUT	300.735703699	299.7470247754827	142872576
+C_Integer/Stroeder_15/CookSeeZuleger-TACAS2013-Fig8a_true-termination.c	true	71.944739276	71.7002947293222	46669824
+C_Integer/Stroeder_15/CookSeeZuleger-TACAS2013-Fig8b_true-termination.c	ERROR (3)	24.935869212	24.83086042664945	15249408
+C_Integer/Stroeder_15/Copenhagen_true-termination.c	ERROR (3)	3.381538269	3.3672216329723597	8060928
+C_Integer/Stroeder_15/GopanReps-CAV2006-Fig1a_true-termination.c.c	TIMEOUT	300.699980085	300.38047312851995	99532800
+C_Integer/Stroeder_15/Gothenburg_true-termination.c	ERROR (3)	11.012915264	10.966699058189988	9117696
+C_Integer/Stroeder_15/GulavaniGulwani-CAV2008-Fig1a_true-termination.c	TIMEOUT	300.803919092	299.60715107247233	170315776
+C_Integer/Stroeder_15/GulavaniGulwani-CAV2008-Fig1b_true-termination.c	TIMEOUT	300.883054772	299.18692570365965	159907840
+C_Integer/Stroeder_15/GulavaniGulwani-CAV2008-Fig1c_true-termination.c	TIMEOUT	300.759193954	299.748386236839	131416064
+C_Integer/Stroeder_15/GulwaniJainKoskinen-PLDI2009-Fig1_true-termination.c	ERROR (3)	25.395660136	25.28127650823444	15241216
+C_Integer/Stroeder_15/HeizmannHoenickeLeikePodelski-ATVA2013-Fig1_true-termination.c	true	81.233518394	80.95671219751239	46669824
+C_Integer/Stroeder_15/HeizmannHoenickeLeikePodelski-ATVA2013-Fig4_true-termination.c	true	96.556774343	96.03904816880822	53821440
+C_Integer/Stroeder_15/HeizmannHoenickeLeikePodelski-ATVA2013-Fig6_true-termination.c	ERROR (3)	3.20659483	3.192959669046104	8224768
+C_Integer/Stroeder_15/HeizmannHoenickeLeikePodelski-ATVA2013-Fig8_true-termination.c	ERROR (3)	50.729594062	50.4730426389724	32866304
+C_Integer/Stroeder_15/HeizmannHoenickeLeikePodelski-ATVA2013-Fig9_true-termination.c	ERROR (3)	13.279669138	13.21986251976341	10092544
+C_Integer/Stroeder_15/KroeningSharyginaTsitovichWintersteiger-CAV2010-Ex_true-termination.c	TIMEOUT	300.690956266	300.4834478041157	152879104
+C_Integer/Stroeder_15/LarrazOliverasRodriguez-CarbonellRubio-FMCAD2013-Fig1_true-termination.c	TIMEOUT	300.799817051	299.5868705715984	176914432
+C_Integer/Stroeder_15/LeikeHeizmann-TACAS2014-Ex1_true-termination.c	TIMEOUT	300.828179826	297.5114290192723	108437504
+C_Integer/Stroeder_15/LeikeHeizmann-TACAS2014-Ex7_true-termination.c	TIMEOUT	300.690270201	300.5151185253635	55853056
+C_Integer/Stroeder_15/LeikeHeizmann-TACAS2014-Ex8_true-termination.c	TIMEOUT	300.735751903	299.72453628107905	325001216
+C_Integer/Stroeder_15/LeikeHeizmann-TACAS2014-Ex9_true-termination.c	ERROR (3)	8.535441558	8.497898244298995	8286208
+C_Integer/Stroeder_15/LeikeHeizmann-TACAS2014-Fig1_true-termination.c	true	77.219774876	76.97336630150676	42151936
+C_Integer/Stroeder_15/LeikeHeizmann-WST2014-Ex5_false-termination.c	TIMEOUT	300.797828908	299.8240218795836	125812736
+C_Integer/Stroeder_15/LeikeHeizmann-WST2014-Ex6_false-termination.c	ERROR (3)	3.505510807	3.4894873006269336	8216576
+C_Integer/Stroeder_15/Lobnya-Boolean-Reordered_true-termination.c	ERROR (3)	11.803807324	11.748392553068697	10964992
+C_Integer/Stroeder_15/Madrid_false-termination.c	TIMEOUT	300.687018821	300.6964394459501	166510592
+C_Integer/Stroeder_15/Masse-VMCAI2014-Ex6_true-termination.c	TIMEOUT	300.709334268	300.3235592590645	98770944
+C_Integer/Stroeder_15/Masse-VMCAI2014-Fig1a_true-termination.c	TIMEOUT	300.721966674	299.9849913325161	417579008
+C_Integer/Stroeder_15/Masse-VMCAI2014-Fig1b_true-termination.c	ERROR (3)	58.529975205	58.278921101242304	52621312
+C_Integer/Stroeder_15/MenloPark_true-termination.c	TIMEOUT	300.294585785	295.53458346705884	614723584
+C_Integer/Stroeder_15/Mysore_true-termination.c	true	181.916781182	181.452989410609	74285056
+C_Integer/Stroeder_15/NonTermination1_false-termination.c	ERROR (3)	4.59536539	4.5741979125887156	8089600
+C_Integer/Stroeder_15/NonTermination2_false-termination.c	ERROR (3)	3.606215818	3.5908656707033515	8089600
+C_Integer/Stroeder_15/NonTermination4_false-termination.c	ERROR (3)	19.282881707	19.173015899024904	15413248
+C_Integer/Stroeder_15/NonTerminationSimple2_false-termination.c	true	6.90782558	6.873301333747804	14860288
+C_Integer/Stroeder_15/NonTerminationSimple3_false-termination.c	TIMEOUT	300.687741998	300.56225681118667	43573248
+C_Integer/Stroeder_15/NonTerminationSimple4_false-termination.c	true	59.253620167	59.03352073673159	34873344
+C_Integer/Stroeder_15/NonTerminationSimple5_false-termination.c	TIMEOUT	300.688286022	300.48992999549955	144498688
+C_Integer/Stroeder_15/NonTerminationSimple6_false-termination.c	true	48.008199821	47.79006366990507	33542144
+C_Integer/Stroeder_15/NonTerminationSimple7_false-termination.c	TIMEOUT	300.689624984	300.5003796843812	54112256
+C_Integer/Stroeder_15/NonTerminationSimple8_false-termination.c	TIMEOUT	300.798245228	299.68372462596744	360726528
+C_Integer/Stroeder_15/NonTerminationSimple9_false-termination.c	TIMEOUT	300.68399934	300.66946586128324	17125376
+C_Integer/Stroeder_15/NoriSharma-FSE2013-Fig7_true-termination.c	ERROR (3)	24.572453138	24.47796838544309	14409728
+C_Integer/Stroeder_15/NoriSharma-FSE2013-Fig8_true-termination.c	TIMEOUT	300.785753981	299.6758608799428	157822976
+C_Integer/Stroeder_15/Nyala-2lex_true-termination.c	ERROR (3)	0.695566384	0.6929851938039064	8204288
+C_Integer/Stroeder_15/Parallel_true-termination.c	ERROR (3)	1.488960121	1.4825937123969197	7663616
+C_Integer/Stroeder_15/Piecewise_true-termination.c	ERROR (3)	8.591071305	8.554355141706765	8163328
+C_Integer/Stroeder_15/PodelskiRybalchenko-LICS2004-Fig1_true-termination.c	TIMEOUT	300.879121569	299.2114249104634	181510144
+C_Integer/Stroeder_15/PodelskiRybalchenko-LICS2004-Fig2-TACAS2011-Fig3_true-termination.c	ERROR (3)	4.111090439	4.093188084661961	7925760
+C_Integer/Stroeder_15/PodelskiRybalchenko-TACAS2011-Fig1_true-termination.c	true	7.78823633	7.745420163497329	15880192
+C_Integer/Stroeder_15/PodelskiRybalchenko-TACAS2011-Fig2_true-termination.c	TIMEOUT	300.862861671	299.19021937344223	177754112
+C_Integer/Stroeder_15/PodelskiRybalchenko-TACAS2011-Fig4_true-termination.c	ERROR (3)	3.729462094	3.717435252852738	8085504
+C_Integer/Stroeder_15/PodelskiRybalchenko-VMCAI2004-Ex1_true-termination.c	TIMEOUT	300.791429419	299.6604358041659	168710144
+C_Integer/Stroeder_15/PodelskiRybalchenko-VMCAI2004-Ex2_true-termination.c	ERROR (3)	5.426730922	5.398923011496663	7946240
+C_Integer/Stroeder_15/Pure2Phase_true-termination.c	TIMEOUT	300.827411843	299.50511870905757	164048896
+C_Integer/Stroeder_15/Pure3Phase_true-termination.c	TIMEOUT	300.802551686	299.5473294677213	189636608
+C_Integer/Stroeder_15/Rotation180_false-termination.c	TIMEOUT	300.791527731	299.61697494983673	57290752
+C_Integer/Stroeder_15/Stockholm_true-termination.c	TIMEOUT	300.742402034	299.88710984401405	172589056
+C_Integer/Stroeder_15/TelAviv-Amir-Minimum_true-termination.c	ERROR (3)	3.805970393	3.789850803092122	8093696
+C_Integer/Stroeder_15/Thun_true-termination.c	ERROR (3)	20.697708337	20.599481033161283	15765504
+C_Integer/Stroeder_15/Toulouse-BranchesToLoop_true-termination.c	ERROR (3)	6.623265203	6.593286836519837	8118272
+C_Integer/Stroeder_15/Toulouse-MultiBranchesToLoop_true-termination.c	ERROR (3)	34.460876778	34.30313995946199	22056960
+C_Integer/Stroeder_15/Urban-WST2013-Fig1_false-termination.c	TIMEOUT	300.684824206	300.6136215114966	29503488
+C_Integer/Stroeder_15/Urban-WST2013-Fig2-modified1000_true-termination.c	TIMEOUT	300.707852358	300.1590301916003	103768064
+C_Integer/Stroeder_15/Urban-WST2013-Fig2_true-termination.c	TIMEOUT	300.699151196	300.38458881434053	88317952
+C_Integer/Stroeder_15/UrbanMine-ESOP2014-Fig3_true-termination.c	ERROR (3)	3.555544596	3.540092784911394	8069120
+C_Integer/Stroeder_15/Velroyen_false-termination.c	TIMEOUT	300.703258022	300.23274785187095	165752832
+C_Integer/Stroeder_15/Waldkirch_true-termination.c	true	6.128314241	6.08931437227875	15134720
+C_Integer/Stroeder_15/WhileFalse_true-termination.c	true	0.223495551	0.2222510501742363	8089600
+C_Integer/Stroeder_15/WhileTrue_false-termination.c	ERROR (3)	6.018441032	6.017246481962502	734281728
+C_Integer/Stroeder_15/aaron2_true-termination.c	ERROR (3)	7.087299823	7.055794334039092	8224768
+C_Integer/Stroeder_15/aaron3_true-termination.c	ERROR (3)	16.236093392	16.166316303424537	11358208
+C_Integer/Stroeder_15/easy1_true-termination.c	TIMEOUT	300.485607635	295.32067850604653	208818176
+C_Integer/Stroeder_15/easy2_true-termination.c	TIMEOUT	300.368752049	294.0932997018099	606711808
+C_Integer/Stroeder_15/gcd1_true-termination.c	TIMEOUT	300.799210872	299.58651038631797	154955776
+C_Integer/Stroeder_15/genady_true-termination.c	true	81.273978458	80.91512661892921	50724864
+C_Integer/Stroeder_15/min_rf_true-termination.c	ERROR (3)	3.728700118	3.7146276207640767	8069120
+C_Integer/Ton_Chanh_15/2Nested_false-termination.c	true	74.479674676	74.25046103354543	42110976
+C_Integer/Ton_Chanh_15/Bangalore_false-termination.c	TIMEOUT	300.689635239	300.5173830855638	53817344
+C_Integer/Ton_Chanh_15/Bangalore_v2_false-termination.c	TIMEOUT	300.692893445	300.4106489038095	64565248
+C_Integer/Ton_Chanh_15/Bangalore_v3_false-termination.c	TIMEOUT	300.699273044	300.25375303346664	72925184
+C_Integer/Ton_Chanh_15/Bangalore_v4_true-termination.c	TIMEOUT	300.727070679	299.45289073325694	86786048
+C_Integer/Ton_Chanh_15/Benghazi_nondet_true-termination.c	TIMEOUT	300.828889911	299.12012578547	185630720
+C_Integer/Ton_Chanh_15/Cairo_nondet_false-termination.c	true	21.66283377	21.566894859075546	24076288
+C_Integer/Ton_Chanh_15/Cairo_step2_false-termination.c	true	13.048380224	12.984524610452354	22265856
+C_Integer/Ton_Chanh_15/Copenhagen_disj_true-termination.c	ERROR (3)	1.354936986	1.348907164297998	8060928
+C_Integer/Ton_Chanh_15/Gothenburg_v2_true-termination.c	ERROR (3)	28.491005935	28.370846460573375	16244736
+C_Integer/Ton_Chanh_15/Hanoi_2vars_false-termination.c	true	76.313567819	75.93309926241636	43208704
+C_Integer/Ton_Chanh_15/Hanoi_3vars_false-termination.c	TIMEOUT	300.732143959	300.087339005433	150978560
+C_Integer/Ton_Chanh_15/Hanoi_plus_false-termination.c	TIMEOUT	300.735021272	299.94111468084157	168890368
+C_Integer/Ton_Chanh_15/McCarthy91_Iteration_true-termination.c	TIMEOUT	300.748137788	299.67522789444774	452333568
+C_Integer/Ton_Chanh_15/Mysore_false-termination.c	true	182.104163995	181.5523497192189	79126528
+C_Integer/Ton_Chanh_15/Singapore_plus_false-termination.c	true	187.108789668	186.5511768888682	68464640
+C_Integer/Ton_Chanh_15/Singapore_true-termination.c	true	230.004780565	228.76912336144596	84733952
+C_Integer/Ton_Chanh_15/Singapore_v1_false-termination.c	true	191.526706008	191.12212678790092	71012352
+C_Integer/Ton_Chanh_15/Singapore_v2_false-termination.c	true	192.528872826	191.931853255257	72802304

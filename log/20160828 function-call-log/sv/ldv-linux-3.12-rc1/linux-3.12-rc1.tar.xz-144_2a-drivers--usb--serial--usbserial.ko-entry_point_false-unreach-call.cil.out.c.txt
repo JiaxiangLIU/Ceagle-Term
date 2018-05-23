@@ -1,0 +1,47 @@
+Verifying sv/ldv-linux-3.12-rc1/linux-3.12-rc1.tar.xz-144_2a-drivers--usb--serial--usbserial.ko-entry_point_false-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_serial_deregister
+      ldv_usb_serial_deregister_drivers_40
+        usb_serial_generic_deregister
+          usb_serial_exit
+            main
+            <end>
+    ldv_put_interface
+      ldv_usb_autopm_put_interface_49
+        usb_serial_device_remove
+          ldv_main_exported_1
+            main
+            <end>
+      ldv_usb_autopm_put_interface_46
+        usb_serial_device_probe
+          ldv_main_exported_1
+            main
+            <end>
+      ldv_usb_autopm_put_interface_7
+        serial_cleanup
+          main
+          <end>
+          main
+          <end>
+      ldv_usb_autopm_put_interface_6
+        serial_install
+          main
+          <end>
+          main
+          <end>
+    ldv_check_final_state
+      main
+      <end>
+    ldv_check_final_state
+      main
+      <end>
+    ldv_check_final_state
+      main
+      <end>
+    ldv_check_final_state
+    ldv_check_final_state
+    ldv__builtin_trap
+    <end>

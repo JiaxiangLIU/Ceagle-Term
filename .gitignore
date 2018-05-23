@@ -1,0 +1,36 @@
+build/
+debug/
+release/
+lib/llvm-slicer/build/
+
+*~
+.DS_Store
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Ceagle middle files
+*.ll
+
+# examples noise
+examples/results*
+examples/floats/results*
+examples/sv/*/*.xml
+*.se
+*.se.c
+/build
+/bs
+# CLion
+/.idea
+*.graphml
+cmake-build-debug/
+<<<<<<< HEAD
+/Default/
+=======
+Config.h
+>>>>>>> master

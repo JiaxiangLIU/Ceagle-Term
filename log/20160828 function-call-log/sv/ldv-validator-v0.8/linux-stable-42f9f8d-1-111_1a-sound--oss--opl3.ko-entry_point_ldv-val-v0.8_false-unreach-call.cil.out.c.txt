@@ -1,0 +1,41 @@
+Verifying sv/ldv-validator-v0.8/linux-stable-42f9f8d-1-111_1a-sound--oss--opl3.ko-entry_point_ldv-val-v0.8_false-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_check_len
+      ldv_copy_from_user_7
+        opl3_load_patch
+          main
+          <end>
+          main
+          <end>
+        opl3_ioctl
+          main
+          <end>
+          main
+          <end>
+      ldv___copy_user_nocache_4
+      <end>
+      ldv___copy_user_nocache_3
+      <end>
+      ldv__copy_to_user_2
+        copy_to_user
+          opl3_ioctl
+            main
+            <end>
+            main
+            <end>
+      ldv__copy_from_user_1
+        copy_from_user
+          ldv_copy_from_user_7
+            opl3_load_patch
+              main
+              <end>
+              main
+              <end>
+            opl3_ioctl
+              main
+              <end>
+              main
+              <end>

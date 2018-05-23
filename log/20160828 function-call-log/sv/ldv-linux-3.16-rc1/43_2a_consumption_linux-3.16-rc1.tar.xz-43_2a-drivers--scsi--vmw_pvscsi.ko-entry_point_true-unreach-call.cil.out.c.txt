@@ -1,0 +1,23 @@
+Verifying sv/ldv-linux-3.16-rc1/43_2a_consumption_linux-3.16-rc1.tar.xz-43_2a-drivers--scsi--vmw_pvscsi.ko-entry_point_true-unreach-call.cil.out.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_check_alloc_nonatomic
+    <end>
+    ldv_check_alloc_flags_and_return_some_page
+    <end>
+    ldv_check_alloc_flags
+      kcalloc
+        pvscsi_probe
+          main
+          <end>
+      ldv___get_free_pages_22
+        pvscsi_allocate_sg
+          pvscsi_probe
+            main
+            <end>
+      ldv_kmem_cache_alloc_16
+      <end>
+    ldv__builtin_trap
+    <end>

@@ -1,0 +1,7 @@
+Verifying sv/ldv-commit-tester/main3_true-unreach-call_arch-x86-oprofile-oprofile-ko--131_1a--79db8ef-1.c
+main using GenerateFunctionCallPreprocessor ...
+GenerateFunctionCallPreprocessor parents for __VERIFIER_error:
+__VERIFIER_error
+  ldv_error
+    ldv_cancel
+    <end>
